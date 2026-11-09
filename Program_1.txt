@@ -1,0 +1,20 @@
+import java.util.Scanner;
+class Main {
+   int num, small, large;
+    Scanner input = new Scanner(System.in);
+
+    System.out.println("Enter number( Enter 0 to stop:)");
+num = input.nextlnt();
+small=num;
+large=num;
+while (num!=0){
+    if (num >= large){
+        large = num;
+    }
+    if (num <= small && num < large){
+     }
+    System.out.print("Enter number(Enter 0 to shop):");
+    num = input.nextInt();
+    System.out.println("small");
+    System.out.printlm("large");
+}
